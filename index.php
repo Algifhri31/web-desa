@@ -10,9 +10,99 @@
 
 <body>
 
+
+
     <?php require 'system/menu.php';?>
 
+    <!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title>Website Horas Eco</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to Font Awesome and any additional styles if needed -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+
+    <!-- Custom CSS -->
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Full viewport header with background image */
+        header {
+            width: 100%;
+            height: 100vh;
+            background-image: url('./assets/images/Waterfall.png');
+            background-size: cover;
+            background-position: right;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        .nav-brand h1 {
+            font-size: 5rem;
+            color: #ffffff;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            font-weight: bold;
+            margin-bottom: 0.5em;
+        }
+
+        .nav-brand p {
+            font-size: 2rem;
+            color: black;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+            font-style: italic;
+            font-weight: 1700;
+            -webkit-text-stroke: 2px black;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        /* Responsive styling for smaller screens */
+        @media (max-width: 768px) {
+            .nav-brand h1 {
+                font-size: 3rem;
+            }
+
+            .nav-brand p {
+                font-size: 1.2rem;
+                padding: 5px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-brand h1 {
+                font-size: 2rem;
+            }
+
+            .nav-brand p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav-brand">
+            <h1>Surga Tersembunyi di Paritohan</h1>
+            <p>ᯘᯒᯮ᯲᯲ᯎᯖᯒᯩ᯲᯲ᯘᯔᯩ᯲᯲ᯅᯮᯠᯪᯑᯪᯇᯒᯪᯖᯬᯂᯉ᯲</p>
+        </div>
+    </header>
+</body>
+
+</html>
 
 <section class="about pt-0 pt-md-5 mb-2 mb-md-5">
     <div class="container">

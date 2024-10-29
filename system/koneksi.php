@@ -2,8 +2,8 @@
 error_reporting(0);
 date_default_timezone_set('Asia/Jakarta');
 
-$linkaplikasi = "http://localhost/sc_organisasidesa";
-$mysqli = new mysqli("localhost", "root", "", "organisasidesa");
+$linkaplikasi = "https://horasecowisata.com";
+$mysqli = new mysqli("localhost", "u524719089_nusantarakse", "Inalumcamp2", "u524719089_organisasidesa");
 if($mysqli->connect_error) {
   exit('Error connecting to database'); 
 }
