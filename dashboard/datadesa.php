@@ -1,4 +1,4 @@
-<!-- <?php 
+<?php 
 require '../system/koneksi.php';
 require 'system/core.php';
 
@@ -265,4 +265,4 @@ if(isset($_POST['hapus'])) {
             });
         </script>
     </body>
-</html> -->
+</html>
