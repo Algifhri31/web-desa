@@ -224,6 +224,19 @@ INSERT INTO `kelembagaan` (`id`, `judul`, `isi`) VALUES
 -- --------------------------------------------------------
 
 --
+CREATE TABLE `visi` (
+  `id` int(11) NOT NULL,
+  `isi` varchar(10000) NOT NULL,
+  `foto` varchar(2000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `misi`
+--
+
+INSERT INTO `visi` (`id`, `isi`, `foto`) VALUES
+(1, '<div style=\"text-align: justify;\"><span style=\"font-size: 16px; color: rgb(107, 165, 74);\">Rumah BUMN merupakan&nbsp;wadah bagi langkah kolaborasi BUMN dalam membentuk Digital Economy Ecosystem melalui pembinaan bagi UKM untuk meningkatkan kapasitas dan kapabilitas UKM itu sendiri&nbsp;&nbsp;</span></div><div style=\"text-align: justify;\"><span style=\"color: rgb(107, 165, 74);\"><span style=\"font-size: 16px;\"><br></span><span lang=\"SV\" style=\"font-size: 16px;\">Rumah BUMN akan diperankan sebagai pusat data dan informasi serta sebagai pusat edukasi pengembangan dan digitalisasi UKM.</span></span></div>', '630fb5d1bd8fcsedang_1612685137_musyawarah-desa.jpg');
+
 -- Table structure for table `misi`
 --
 
